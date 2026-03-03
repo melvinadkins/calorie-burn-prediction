@@ -4,13 +4,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 import joblib
-#import sys
-#import os
 from pathlib import Path
-
-# Add project root to Python path
-#PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-#sys.path.append(PROJECT_ROOT)
 
 from src.feature_engineering import FeatureEngineering
 
