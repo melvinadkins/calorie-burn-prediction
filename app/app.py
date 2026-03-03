@@ -6,6 +6,7 @@ from PIL import Image
 import joblib
 import sys
 import os
+from pathlib import Path
 
 # Add project root to Python path
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -16,7 +17,9 @@ from src.feature_engineering import FeatureEngineering
 # Load XGBoost model
 @st.cache_resource 
 def load_model():
-    return joblib.load("../model/xgb_calories_model.joblib")
+    #return joblib.load("../model/xgb_calories_model.joblib")
+    model_path = Path(__file__).resolve().parents[1] / "model" / "xgb_calories_model.joblib"
+    return joblib.load(model_path)
 
 model = load_model()
 
