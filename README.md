@@ -159,7 +159,7 @@ of duration x heart rate is the most important of all features used. Physiologic
 
 ## 🌐 Live Demo
 
-👉 **[predict-calorie-expenditure.streamlit.app](https://predict-calorie-expenditure.streamlit.app/)**
+👉 **[predict-calorie-expenditure.streamlit.app](https://calorie-expenditure-prediction.streamlit.app/)
 
 The app:
 
