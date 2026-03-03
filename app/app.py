@@ -28,7 +28,10 @@ st.title("🔥 Calorie Burn Prediction App")
 st.write("Predict calories burned based on workout and physiological inputs.")
 
 # Display image
-image = Image.open("../assets/gym.jpeg")
+#image = Image.open("../assets/gym.jpeg")
+BASE_DIR = Path(__file__).resolve().parents[1]
+image_path = BASE_DIR / "assets" / "gym.jpeg"
+image = Image.open(image_path)
 st.image(image)
 
 st.divider()
