@@ -6,6 +6,10 @@ from PIL import Image
 import joblib
 from pathlib import Path
 
+# Add project root to Python path
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.append(str(PROJECT_ROOT))
+
 from src.feature_engineering import FeatureEngineering
 
 # Load XGBoost model
