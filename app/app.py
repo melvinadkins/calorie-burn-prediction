@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 import joblib
+import sys
 from pathlib import Path
 
 # Add project root to Python path
