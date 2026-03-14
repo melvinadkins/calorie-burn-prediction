@@ -11,6 +11,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(PROJECT_ROOT))
 
+# Import feature engineering
 from src.feature_engineering import FeatureEngineering
 
 # Load XGBoost model
@@ -19,6 +20,7 @@ def load_model():
     model_path = Path(__file__).resolve().parents[1] / "model" / "xgb_calories_model.joblib"
     return joblib.load(model_path)
 
+# Load model
 model = load_model()
 
 # App Title 
