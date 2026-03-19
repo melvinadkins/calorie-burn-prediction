@@ -15,13 +15,13 @@ Streamlit web application.
 > https://kaggle.com/competitions/playground-series-s5e5
 
 This project builds an end-to-end regression pipeline to predict calories burned during a workout session using physiological and workout based features:
-* Age
+* Age 
 * Height
 * Weight
 * Session Duration
 * Heart Rate
 * Body Temperature
-* Sex
+* Sex 
 
 Four models were evaluated:
 * Ridge Regression
